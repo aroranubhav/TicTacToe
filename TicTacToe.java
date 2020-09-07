@@ -63,8 +63,7 @@ public class TicTacToe {
             firstMove = 'C';
             computersTurn();
         }
-
-
+        
         while (true) {
             if (firstMove == 'P') {
                 computersTurn();
