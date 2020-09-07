@@ -12,11 +12,9 @@ public class TicTacToe {
     private static char[][] gameBoard;
 
     public static void main(String[] args) {
-
         setUpGameBoard();
         init();
         playGame();
-
     }
 
     private static void setUpGameBoard() {
